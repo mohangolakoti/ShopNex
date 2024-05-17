@@ -11,9 +11,11 @@ const Footer = () => {
     const {theme}=useContext(ShopContext);
     return (
         <div className='footer'>
-            <div className="footer-logo">
+            <div>
+                <Link to='/' className="footer-logo">
                 <img src={footer_logo} alt="" />
                 <p className={`footer_${theme}`}>ShopNex</p>
+                </Link>
             </div>
             <ul className={'footer-links_'+theme}>
                 <li>Company</li>

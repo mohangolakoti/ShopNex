@@ -11,6 +11,10 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    text-decoration: none;
+}
+.footer-logo p{
+    padding-top: 25px;
 }
 
 .footer-logo .footer_dark {
